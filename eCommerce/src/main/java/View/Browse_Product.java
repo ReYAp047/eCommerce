@@ -5,17 +5,24 @@
  */
 package View;
 
+import Controler.Client;
+
 /**
  *
  * @author mefta
  */
 public class Browse_Product extends javax.swing.JFrame {
 
+
     /**
      * Creates new form Browse_Product
      */
     public Browse_Product() {
         initComponents();
+            Client cl = new Client();
+            cl.setLogin("Foulen");
+            
+            
     }
 
     /**
@@ -162,7 +169,7 @@ public class Browse_Product extends javax.swing.JFrame {
         jLabel1.setAlignmentX(114.0F);
         jLabel1.setAlignmentY(50.0F);
         jPanel3.add(jLabel1);
-        jLabel1.setBounds(140, 30, 110, 19);
+        jLabel1.setBounds(143, 30, 110, 19);
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Icon fit/heart.png"))); // NOI18N
         jPanel3.add(jLabel16);
